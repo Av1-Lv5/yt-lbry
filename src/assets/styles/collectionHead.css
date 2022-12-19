@@ -1,0 +1,26 @@
+.collection-container .cover {
+    width: 30px;
+}
+.collection-container .head {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(15, 15, 15);
+    border-bottom: 1px solid rgb(40, 40, 40);
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 35px;
+}
+
+.play-all {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+.play-all:hover {
+    background-color: rgba(57, 57, 57, 0.5);
+}

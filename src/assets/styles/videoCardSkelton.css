@@ -1,0 +1,42 @@
+.skelton--text {
+    height: 16px;
+    border-radius: 100px;
+    margin-bottom: 6px;
+}
+.skelton--img {
+    border-radius: 15px;
+    width: 100%;
+    max-height: 100%;
+    aspect-ratio: 3/1.7;
+    margin-bottom: 15px;
+}
+.subtext-1 {
+    width: 90%;
+}
+.subtext-2 {
+    width: 50%;
+}
+
+.card.skelton {
+    max-width: 400px;
+}
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -400px 0;
+    }
+    100% {
+        background-position: 400px 0;
+    }
+}
+
+.shimmer-effect {
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #282829;
+    background: linear-gradient(to right, #282829 8%, #1f1f1f 40%, #282829 90%);
+    position: relative;
+}
